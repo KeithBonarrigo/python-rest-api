@@ -1,0 +1,10 @@
+.idea
+env/Include
+env/Lib
+env/Scripts
+env/tcl
+pip-selfcheck.json
+env/rest/rest/__pycache__
+env/rest/restapp/migrations
+env/rest/restapp/__pycache__
+env/migrations
