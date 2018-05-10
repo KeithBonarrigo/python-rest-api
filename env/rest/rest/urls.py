@@ -8,9 +8,9 @@ from django.conf import settings
 
 #router = routers.DefaultRouter()
 router = routers.SimpleRouter()
-router.register(r'task', TaskViewSet)
-router.register(r'completed_task', views.CompletedViewSet)
-router.register(r'due_task', views.DueTaskViewSet)
+router.register(r'task',views.TaskViewSet)
+#router.register(r'completed_task', views.CompletedViewSet)
+#router.register(r'due_task', views.DueTaskViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
